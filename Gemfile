@@ -10,6 +10,7 @@ end
 group :test do 
 	gem 'rspec', '2.0.1' 
 	gem 'webrat', '0.7.1'
+	gem 'factory_girl_rails'
 end
 
 
@@ -17,6 +18,8 @@ end
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby','1.2.5', :require => 'sqlite3'
+gem 'gravatar_image_tag'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
